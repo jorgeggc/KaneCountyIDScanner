@@ -10,7 +10,7 @@ namespace HelloGeeksApp
 		{ 
 
 			// Printing Hello Geeks 
-			Console.WriteLine("Hello Geeks"); 
+			Console.WriteLine("Testing"); 
 
 			Console.ReadKey(); 
 		} 
