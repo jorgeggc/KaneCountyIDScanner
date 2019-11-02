@@ -1,6 +1,6 @@
 ﻿namespace KaneCountyIDScanner
 {
-    partial class HomePage
+    partial class homePage
     {
         /// <summary>
         /// Required designer variable.
@@ -76,7 +76,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click_1);
             // 
-            // HomePage
+            // homePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -86,8 +86,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.IdScanner);
-            this.Name = "HomePage";
+            this.Name = "homePage";
             this.Text = "Kane County ID Scanner";
+            this.Load += new System.EventHandler(this.HomePage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

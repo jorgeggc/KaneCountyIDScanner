@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KaneCountyIDScanner
 {
-    public partial class HomePage : Form
+    public partial class homePage : Form
     {
-        public HomePage()
+        public homePage()
         {
             InitializeComponent();
         }
@@ -43,6 +43,11 @@ namespace KaneCountyIDScanner
         }
 
         private void Button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HomePage_Load(object sender, EventArgs e)
         {
 
         }
